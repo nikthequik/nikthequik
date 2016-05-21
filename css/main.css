@@ -21,6 +21,10 @@ html, body {
 	width: 100%;
 }
 
+#topnav {
+	position: relative;
+}
+
 #profile-pic {
 	border-radius: 50%;
 	position: relative;
@@ -44,8 +48,9 @@ html, body {
 	bottom: -0.9em;
 }
 
-#topnav {
+#arrow {
 	position: relative;
+	bottom: 1em;
 }
 
 .links {
