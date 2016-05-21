@@ -50,7 +50,9 @@ html, body {
 
 #arrow {
 	position: relative;
-	bottom: 1em;
+	top: 0.9em;
+	left: 0.5em;
+	vertical-align: top;
 }
 
 .links {
