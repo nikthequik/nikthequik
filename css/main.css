@@ -78,6 +78,22 @@ a {
 
 @media (max-width: 548px) {
 	.nav-link {
-		font-size: 12;
+		font-size: 12px;
+	}
+
+	#title {
+    	margin: 0em;
+    	left: 1em;
+    	bottom: 0em;
+	}
+	#arrow {
+		display: none;
+	}
+	#profile-pic {
+		width: 9%;
+		position: absolute;
+	}
+	#profile-pic:hover {
+		width: :9%;
 	}
 }
