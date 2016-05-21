@@ -17,6 +17,7 @@ html, body {
 	background-color: lightgreen;
 	overflow: visible;
 	position: fixed;
+	height: 7em;
 	width: 100%;
 }
 
