@@ -95,5 +95,6 @@ a {
 	}
 	#profile-pic:hover {
 		width: :9%;
+		top: 0em;
 	}
 }
