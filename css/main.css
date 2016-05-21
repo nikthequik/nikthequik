@@ -76,3 +76,8 @@ a {
 	text-decoration: none;
 }
 
+@media (max-width: 548px) {
+	.nav-link {
+		font-size: 12;
+	}
+}
