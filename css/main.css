@@ -29,7 +29,10 @@ h1 {
 	width: 75%;
 }
 
-.section-title {font-weight: 600;}
+.section-title {
+	margin: 0.2em;
+	font-weight: 600;
+}
 
 .clear {
 	clear: both;
@@ -138,5 +141,8 @@ h1 {
 	#profile-pic:hover {
 		width: :9%;
 		top: 0em;
+	}
+	#story {
+		margin-top: 31%;
 	}
 }
