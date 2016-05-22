@@ -5,10 +5,11 @@
 html, body {
 	font-family: Skybird-Regular, sans-serif;
 	padding: 0;
+	padding-top: 3.5em;
 	margin: 0;
 	box-sizing: border-box;
 	width:100%;
-	height: 100%
+	height: 100%;
 }
 
 a {
@@ -114,12 +115,12 @@ h1 {
 #story {
 	min-height: 10em;
 	background-color: orange;
-	margin-top: 8.3%;
 	padding: 1em;
 	overflow: auto;
 }
 #work {
 	min-height: 10em;
+	margin-top: 0em;
 	background-color: blue;
 	overflow: auto;
 }
