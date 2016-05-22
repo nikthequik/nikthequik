@@ -23,7 +23,7 @@ h1 {
 	margin: 0 auto;
 	width: 50%;
 	text-indent: 1.3em;
-	}
+}
 
 .content p {
 	width: 75%;
@@ -37,6 +37,11 @@ h1 {
 .clear {
 	clear: both;
 }
+
+.pull {
+	position: relative;
+}
+
 #intro {
 	background-color: lightgreen;
 	overflow: visible;

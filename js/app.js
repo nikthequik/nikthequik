@@ -1,7 +1,8 @@
 $(function(){
-	/*$('#profile-pic').hover(
-		function(){
-		$(this).animate({width: "20%"}, 200);},
-		function(){
-		$(this).animate({width: "10%"}, 200);});*/
+	$('.pull').hover(function() {
+		$('.pull').stop().animate({right: "25%"}, 500);
+	},
+	function() {
+		$('.pull').stop().animate({right: 0}, 500);
+	});
 });
