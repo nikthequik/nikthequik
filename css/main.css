@@ -38,7 +38,7 @@ h1 {
 	clear: both;
 }
 
-.pull {
+.pull, .push {
 	position: relative;
 }
 
@@ -116,14 +116,17 @@ h1 {
 	background-color: orange;
 	margin-top: 8.3%;
 	padding: 1em;
+	overflow: auto;
 }
 #work {
 	min-height: 10em;
 	background-color: blue;
+	overflow: auto;
 }
 #imagination {
 	min-height: 10em;
 	background-color: green;
+	overflow: auto;
 }
 
 @media (max-width: 548px) {
