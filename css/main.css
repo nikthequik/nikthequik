@@ -122,15 +122,21 @@ h1 {
 	min-height: 10em;
 	margin-top: 0em;
 	background-color: blue;
+	padding: 1em;
 	overflow: auto;
 }
 #imagination {
 	min-height: 10em;
+	padding: 1em;
 	background-color: green;
 	overflow: auto;
 }
 
 @media (max-width: 548px) {
+	body {
+		padding-top: 3.5em;
+	}
+
 	.nav-link {
 		font-size: 12px;
 	}
@@ -151,7 +157,8 @@ h1 {
 		width: :9%;
 		top: 0em;
 	}
-	#story {
-		margin-top: 31%;
+
+	.content {
+		width: 100%;
 	}
 }
