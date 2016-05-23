@@ -17,6 +17,11 @@ a {
 	color: inherit;
 }
 
+hr {
+	border-top: 3px solid black;
+	margin: 0;
+}
+
 h1 {
 	margin: 0;
 }
@@ -45,7 +50,7 @@ h1 {
 }
 
 #intro {
-	background-color: lightgreen;
+	background-color: white;
 	overflow: visible;
 	position: fixed;
 	top: 0;
@@ -119,7 +124,7 @@ h1 {
 
 #story {
 	min-height: 10em;
-	background-color: orange;
+	background-color: #DBFF33;
 	padding: 1em;
 	overflow: auto;
 }
@@ -128,7 +133,7 @@ h1 {
 	display: block;
     position: relative;
     visibility: hidden;
-    top: -7.9em;
+    top: -8.3em;
 }
 
 #story-content {
@@ -138,7 +143,7 @@ h1 {
 #work {
 	min-height: 10em;
 	margin-top: 0em;
-	background-color: blue;
+	background-color: #33FF57;
 	padding: 1em;
 	overflow: auto;
 }
@@ -147,13 +152,13 @@ h1 {
 	display: block;
     position: relative;
     visibility: hidden;
-    top: -7.9em;
+    top: -8.3em;
 }
 
 #imagination {
 	min-height: 10em;
 	padding: 1em;
-	background-color: green;
+	background-color: #8163EA;
 	overflow: auto;
 }
 
@@ -161,7 +166,7 @@ h1 {
 	display: block;
     position: relative;
     visibility: hidden;
-    top: -7.9em;
+    top: -8.3em;
 }
 
 @media (max-width: 866px) {
@@ -203,15 +208,15 @@ h1 {
 	}
 
 	#anchor-story {
-	    top: -5.2em;
+	    top: -5.5em;
 	}
 
 	#anchor-work {
-	    top: -5.2em;
+	    top: -5.5em;
 	}
 
 	#anchor-imagination {
-	    top: -5.2em;
+	    top: -5.5em;
 	}
 
 	.content {
