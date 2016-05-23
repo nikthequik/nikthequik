@@ -1,5 +1,5 @@
 $(function(){
-	if ($(window).width() > 800) {
+	if ($(window).width() > 866) {
 		$('.pull').hover(function() {
 				$(this).stop().animate({right: "25%"}, 500);
 				},
