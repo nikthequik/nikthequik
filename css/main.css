@@ -138,6 +138,14 @@ h1 {
 	position: relative;
 }
 
+#michigan {
+	position: absolute;
+    width: 16em;
+    bottom: 3em;
+    left: 61%;
+    display: none;
+}
+
 #work {
 	min-height: 10em;
 	margin-top: 0em;
