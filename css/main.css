@@ -192,10 +192,10 @@ h1 {
 		width: 2em;
 		position: absolute;
 		margin: .5em 1em;
+		z-index: 101;
 	}
 	#profile-pic:hover {
-		width: :4em;
-		
+		width: :4em;		
 	}
 
 	#arrow {
