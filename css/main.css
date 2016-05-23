@@ -105,12 +105,13 @@ h1 {
 }
 
 .nav-link:hover {
-	border: solid white 3px;
-	border-radius: 40%;
-	box-shadow: 3px 0px 5px;
-	background-color: black;
-	color:white;
+	border: none;
+	box-shadow: none;
+	background-color: inherit;
+	color:inherit;
+	text-decoration: underline;
 }
+
 
 #story {
 	min-height: 10em;
@@ -188,8 +189,9 @@ h1 {
  	}
 
 	#profile-pic {
-		width: 9%;
+		width: 2em;
 		position: absolute;
+		margin: .5em 1em;
 	}
 	#profile-pic:hover {
 		width: :15%;
@@ -210,14 +212,6 @@ h1 {
 
 	#anchor-imagination {
 	    top: -5.2em;
-	}
-
-	.nav-link:hover {
-		border: none;
-		box-shadow: none;
-		background-color: inherit;
-		color:inherit;
-		text-decoration: underline;
 	}
 
 	.content {
