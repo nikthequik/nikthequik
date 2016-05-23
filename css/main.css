@@ -131,18 +131,8 @@ h1 {
     top: -7.9em;
 }
 
-#anchor-work {
-	display: block;
-    position: relative;
-    visibility: hidden;
-    top: -7.9em;
-}
-
-#anchor-imagination {
-	display: block;
-    position: relative;
-    visibility: hidden;
-    top: -7.9em;
+#story-content {
+	position: relative;
 }
 
 #work {
@@ -152,6 +142,14 @@ h1 {
 	padding: 1em;
 	overflow: auto;
 }
+
+#anchor-work {
+	display: block;
+    position: relative;
+    visibility: hidden;
+    top: -7.9em;
+}
+
 #imagination {
 	min-height: 10em;
 	padding: 1em;
@@ -159,6 +157,12 @@ h1 {
 	overflow: auto;
 }
 
+#anchor-imagination {
+	display: block;
+    position: relative;
+    visibility: hidden;
+    top: -7.9em;
+}
 
 @media (max-width: 866px) {
 	body {
