@@ -166,42 +166,62 @@ h1 {
 
 @media (max-width: 800px) {
 	body {
-		padding-top: 3.5em;
+		padding-top: 0.8em;
+	}
+
+	#intro {
+		height: 4.3em;
 	}
 
 	.nav-link {
 		box-sizing: border-box;
 		font-size: 12px;
+		margin-top: -1em;
 	}
 
 	#title {
     	margin: 0em;
     	position: absolute;
     	font-size: 2em;
-    	top: 1.8em;
+    	top: 0.6em;
     	left: 18%;
- }
+ 	}
 
 	#profile-pic {
 		width: 9%;
-		top: 0.5em;
 		position: absolute;
 	}
 	#profile-pic:hover {
-		width: :9%;
-		top: 0em;
+		width: :15%;
+		
 	}
 
 	#arrow {
 		display: none;
 	}
 
+	#anchor-story {
+	    top: -5.2em;
+	}
+
+	#anchor-work {
+	    top: -5.2em;
+	}
+
+	#anchor-imagination {
+	    top: -5.2em;
+	}
+
+	.nav-link:hover {
+		border: none;
+		box-shadow: none;
+		background-color: inherit;
+		color:inherit;
+		text-decoration: underline;
+	}
+
 	.content {
 		width: 100%;
 	}
-}
-
-@media (max-width: 606px) {
-	
 }
 
