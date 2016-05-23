@@ -141,8 +141,16 @@ h1 {
 #michigan {
 	position: absolute;
     width: 16em;
-    bottom: 3em;
-    left: 61%;
+    bottom: 2em;
+    left: 45%;
+    display: none;
+}
+
+#nmu {
+	position: absolute;
+    width: 16em;
+    bottom: 2em;
+    left: 66%;
     display: none;
 }
 
