@@ -17,6 +17,10 @@ a {
 	color: inherit;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 hr {
 	border-top: 3px solid black;
 	margin: 0;
@@ -110,16 +114,10 @@ h1 {
 	text-decoration: none;
 }
 
-.nav-link:hover {
-	border: none;
-	box-shadow: none;
-	background-color: inherit;
-	color:inherit;
-	text-decoration: underline;
-}
-
 #envelope {
 		width: 1.2em;
+		position: relative;
+		bottom: 0.2em;
 	}
 
 #story {
@@ -167,6 +165,19 @@ h1 {
     position: relative;
     visibility: hidden;
     top: -8.3em;
+}
+
+#outro {
+	min-height: 1em;
+	background-color: black;
+	color: white;
+	padding: 1em; 
+}
+
+#attribution {
+	font-size: 0.8em;
+	text-align: center;
+	margin: 0; 
 }
 
 @media (max-width: 866px) {
@@ -228,7 +239,7 @@ h1 {
 	}
 
 	#envelope {
-		width: 1.2em;
+		bottom: 0.1em;
 	}
 
 	.section-title {
