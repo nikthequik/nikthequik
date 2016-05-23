@@ -121,7 +121,7 @@ h1 {
 	}
 
 #story {
-	min-height: 10em;
+	min-height: 17em;
 	background-color: #DBFF33;
 	padding: 1em;
 	overflow: auto;
@@ -150,12 +150,12 @@ h1 {
 	position: absolute;
     width: 16em;
     bottom: 2em;
-    left: 66%;
+    left: 70%;
     display: none;
 }
 
 #work {
-	min-height: 10em;
+	min-height: 17em;
 	margin-top: 0em;
 	background-color: #33FF57;
 	padding: 1em;
@@ -170,7 +170,7 @@ h1 {
 }
 
 #imagination {
-	min-height: 10em;
+	min-height: 17em;
 	padding: 1em;
 	background-color: #B6A5F0;
 	overflow: auto;
