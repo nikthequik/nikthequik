@@ -4,6 +4,7 @@
 }
 html, body {
 	font-family: Skybird-Regular, sans-serif;
+	-webkit-font-smoothing: antialiased;
 	padding: 0;
 	padding-top: 3.5em;
 	margin: 0;
@@ -260,6 +261,10 @@ h1 {
 
 	.section-title {
 		font-size: 1.5em;
+	}
+
+	#attribution {
+		font-size: 0.6em;
 	}
 }
 

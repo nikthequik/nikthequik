@@ -1,4 +1,5 @@
 $(function(){
+	//Perform only on screens above 866px
 	if ($(window).width() > 866) {
 		$('.pull').hover(function() {
 			$(this).children('article').stop().animate({right: "25%"}, 500);
@@ -14,5 +15,10 @@ $(function(){
 			function() {
 			$(this).children('article').stop().animate({left: 0}, 500);
 			});
+	}
+
+	//Perform only on screens below 866px
+	else {
+
 	}
 });
