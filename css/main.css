@@ -139,6 +139,8 @@ h1 {
 	position: relative;
 }
 
+/*Hidden Pictures*/
+
 #michigan {
 	position: absolute;
     width: 16em;
@@ -152,6 +154,14 @@ h1 {
     width: 16em;
     bottom: 2em;
     left: 70%;
+    display: none;
+}
+
+#quiz-pic {
+	position: absolute;
+    width: 16em;
+    bottom: 2em;
+    left: 20%;
     display: none;
 }
 
