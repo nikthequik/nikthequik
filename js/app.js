@@ -11,11 +11,12 @@ $(function(){
 			});
 		$('.push').hover(function() {
 			$(this).stop().animate({left: "25%"}, 500);
-			$(this).children('img').stop().fadeIn(1000);
+			console.log($(this).siblings('img'));
+			$(this).siblings('img').stop().fadeIn(1000);
 			},
 			function() {
 			$(this).stop().animate({left: 0}, 500);
-			$(this).children('img').stop().fadeOut("fast");
+			$(this).siblings('img').stop().fadeOut("fast");
 			});
 	}
 

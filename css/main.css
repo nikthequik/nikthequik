@@ -46,6 +46,10 @@ h1 {
 	font-weight: 600;
 }
 
+.project-title {
+	font-size: 1em;
+}
+
 .clear {
 	clear: both;
 }
@@ -159,9 +163,9 @@ h1 {
 
 #quiz-pic {
 	position: absolute;
-    width: 16em;
-    bottom: 2em;
-    left: 20%;
+    width: 24em;
+    bottom: -13.6em;
+    left: 2%;
     display: none;
 }
 
