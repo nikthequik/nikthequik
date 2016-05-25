@@ -186,15 +186,17 @@ h1 {
 
 #outro {
 	min-height: 1em;
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	padding: 1em; 
 }
 
-#attribution {
-	font-size: 0.8em;
-	text-align: center;
-	margin: 0; 
+#social {display: block;margin: 0 auto;}
+
+#linkedin {
+	width: 2.2em;
+	margin: 0 auto;
+	display: block;
 }
 
 @media (max-width: 842px) {
