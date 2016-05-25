@@ -123,7 +123,7 @@ h1 {
 
 #story {
 	min-height: 17em;
-	background-color: cornflowerblue;
+	background-image: url(../img/storyback.png);
 	padding: 1em;
 	overflow: auto;
 }
@@ -168,7 +168,7 @@ h1 {
 #work {
 	min-height: 17em;
 	margin-top: 0em;
-	background-color: navajowhite;
+	background-image: url(../img/workback.png);
 	padding: 1em;
 	overflow: auto;
 }
@@ -183,6 +183,7 @@ h1 {
 #imagination {
 	min-height: 17em;
 	padding: 1em;
+	background-image: url(../img/imaginationback.png);
 	background-color: #B6A5F0;
 	overflow: auto;
 }
@@ -198,7 +199,7 @@ h1 {
 	min-height: 1em;
 	background-color: white;
 	color: black;
-	padding: 1em; 
+	padding: 0.5em;
 }
 
 #social {display: block;margin: 0 auto;}
@@ -236,7 +237,6 @@ h1 {
 	#profile-pic {
 		width: 2.4em;
 		position: absolute;
-		/* margin: 0em .5em; */
 		z-index: 101;
 	}
 	#profile-pic:hover {
@@ -257,7 +257,7 @@ h1 {
 
 	#anchor-imagination {
 	    top: -5.5em;
-	}
+	}	
 
 	.content {
 		width: 100%;
