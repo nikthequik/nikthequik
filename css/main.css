@@ -42,12 +42,17 @@ h1 {
 }
 
 .section-title {
-	margin: 0.2em;
+	margin: 0.2em 0.2em 0.2em 2.5em;
 	font-weight: 600;
+	font-size: 1.5em;
 }
 
-.project-title {
+.work-item {
 	font-size: 1em;
+	position: relative;
+	text-align: center;
+	top: 2em;
+	cursor: pointer;
 }
 
 .clear {
@@ -171,7 +176,6 @@ h1 {
 
 #work {
 	min-height: 17em;
-	margin-top: 0em;
 	background-image: url(../img/workback.png);
 	padding: 1em;
 	overflow: auto;
@@ -273,10 +277,6 @@ h1 {
 
 	#envelope {
 		bottom: 0.1em;
-	}
-
-	.section-title {
-		font-size: 1.5em;
 	}
 
 	#attribution {
