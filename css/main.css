@@ -30,11 +30,11 @@ hr {
 h1 {
 	margin: 0;
 }
-.content {
+/* .content {
 	margin: 0 auto;
 	width: 50%;
 	
-}
+} */
 
 .content p {
 	width: 75%;
@@ -167,11 +167,8 @@ h1 {
 }
 
 #quiz-pic {
-	position: absolute;
     width: 24em;
-    bottom: -13.6em;
-    left: 2%;
-    display: none;
+    /* display: none; */
 }
 
 #work {
@@ -218,7 +215,7 @@ h1 {
 	display: block;
 }
 
-@media (max-width: 842px) {
+/* @media (max-width: 842px) {
 	body {
 		padding-top: 1.6em;
 	}
@@ -290,3 +287,4 @@ h1 {
 	}
 }
 
+ */
