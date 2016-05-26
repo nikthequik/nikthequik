@@ -6,7 +6,7 @@ html, body {
 	font-family: Skybird-Regular, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	padding: 0;
-	padding-top: 2.76em;
+	padding-top: 2.16em;
 	margin: 0;
 	box-sizing: border-box;
 	width:100%;
@@ -47,14 +47,6 @@ h1 {
 	font-size: 1.5em;
 }
 
-.work-item {
-	font-size: 1em;
-	position: relative;
-	text-align: center;
-	top: 2em;
-	cursor: pointer;
-}
-
 .clear {
 	clear: both;
 }
@@ -63,10 +55,10 @@ h1 {
 	position: relative;
 }
 
+
 #intro {
 	background-color: mintcream;
 	overflow: visible;
-	position: fixed;
 	top: 0;
 	left: 0;
 	height: 5.5em;
@@ -74,8 +66,8 @@ h1 {
 	z-index: 100;
 }
 
-#topnav {
-	position: relative;
+#top-nav {
+	background-color: mintcream;
 }
 
 #profile-pic {
@@ -176,6 +168,10 @@ h1 {
 	background-image: url(../img/workback.png);
 	padding: 1em;
 	overflow: auto;
+}
+
+.work-item {
+	font-size: 1em;
 }
 
 #anchor-work {
