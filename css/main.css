@@ -143,23 +143,18 @@ h1 {
 /*Hidden Pictures*/
 
 #michigan {
-	position: absolute;
-    width: 16em;
-    bottom: 2em;
-    left: 45%;
+    width: 13em;
     display: none;
 }
 
 #nmu {
-	position: absolute;
-    width: 16em;
-    bottom: 2em;
-    left: 70%;
+    width: 13em;
     display: none;
 }
 
 #quiz-pic {
     width: 24em;
+    border-radius: 5px;
     /* display: none; */
 }
 
