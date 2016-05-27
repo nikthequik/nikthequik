@@ -1,0 +1,40 @@
+{
+  "name": "nikthequik",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {},
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "globals": {
+      "require": false,
+      "beforeEach": false,
+      "it": false,
+      "expect": false,
+      "xdescribe": false,
+      "describe": false
+    },
+    "rules": {
+      "no-undef": 1,
+      "quotes": [
+        2,
+        "single"
+      ]
+    },
+    "parsers": "babel-eslint"
+  },
+  "author": "nik",
+  "dependencies": {
+    "bootstrap": "3.3.6"
+  },
+  "devDependencies": {}
+}

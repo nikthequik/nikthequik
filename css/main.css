@@ -30,11 +30,10 @@ hr {
 h1 {
 	margin: 0;
 }
-/* .content {
-	margin: 0 auto;
-	width: 50%;
-	
-} */
+
+section, nav {
+	border-bottom: 3px solid black !important;
+}
 
 .content p {
 	width: 75%;
@@ -140,6 +139,9 @@ h1 {
 	position: relative;
 }
 
+ul li {
+	list-style: none;
+}
 /*Hidden Pictures*/
 
 #michigan {
