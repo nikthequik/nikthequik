@@ -2,6 +2,9 @@
   "name": "nikthequik",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "4.4.4"
+  }
   "repository": {},
   "private": true,
   "main": "app.js",
