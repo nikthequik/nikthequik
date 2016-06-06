@@ -4,7 +4,7 @@
   "description": "",
   "engines": {
     "node": "4.4.4"
-  }
+  },
   "repository": {},
   "private": true,
   "main": "app.js",
