@@ -10,7 +10,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "npm run clean && mkdir build && npm run build:html && npm run build:css",
+    "clean": "rm -rf build",
+    "clean:html": "rm -f build/index.html",
+    "clean:css": "rm -f build/index.css build/index.css.map",
+    "build:html": "npm run clean:html && cp index.html build/",
+    "build:css": "npm run clean:css && lessc --source-map css/index.less build/index.css"
   },
   "eslintConfig": {
     "env": {
@@ -39,5 +45,7 @@
   "dependencies": {
     "bootstrap": "3.3.6"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "less": "^2.7.1"
+  }
 }
